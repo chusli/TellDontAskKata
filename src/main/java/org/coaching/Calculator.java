@@ -15,17 +15,8 @@ public class Calculator {
 
     public int[] execute() {
         for (Character command : commands) {
-            handle(command);
+            result.handle(command);
         }
         return result.getValues();
-    }
-
-    private void handle(Character command) {
-        switch (command) {
-            case 'i' -> result.increment();
-            case 'd' -> result.decrement();
-            case 's' -> result.square();
-            case 'o' -> result.output();
-        }
     }
 }

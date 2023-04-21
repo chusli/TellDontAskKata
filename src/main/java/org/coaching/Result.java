@@ -20,19 +20,28 @@ public class Result {
         return new Result();
     }
 
-    public void increment() {
+     void increment() {
         currentValue++;
     }
 
-    public void decrement() {
+     void decrement() {
         currentValue--;
     }
 
-    public void square() {
+     void square() {
         currentValue *= currentValue;
     }
 
-    public void output() {
+    void output() {
         values.add(currentValue);
+    }
+
+    public void handle(Character command) {
+        switch (command) {
+            case 'i' -> increment();
+            case 'd' -> decrement();
+            case 's' -> square();
+            case 'o' -> output();
+        }
     }
 }
