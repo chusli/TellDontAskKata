@@ -2,6 +2,10 @@ package org.coaching;
 
 public class Deadfish {
     public static int[] parse(String commands) {
-        return new Calculator(commands).execute();
+        Result result = Result.empty();
+        for (Character command : commands.chars().mapToObj(value -> (char) value).toList()) {
+            result.handle(command);
+        }
+        return result.getValues();
     }
 }
