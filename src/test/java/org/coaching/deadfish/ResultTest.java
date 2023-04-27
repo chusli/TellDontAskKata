@@ -1,5 +1,6 @@
-package org.coaching;
+package org.coaching.deadfish;
 
+import org.coaching.deadfish.Result;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;

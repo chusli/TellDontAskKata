@@ -1,4 +1,4 @@
-package org.coaching;
+package org.coaching.deadfish;
 
 import java.util.ArrayList;
 import java.util.List;

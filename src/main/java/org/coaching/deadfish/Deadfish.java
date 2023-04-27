@@ -1,4 +1,4 @@
-package org.coaching;
+package org.coaching.deadfish;
 
 public class Deadfish {
     public static int[] parse(String commands) {

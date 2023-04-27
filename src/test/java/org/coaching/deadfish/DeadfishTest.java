@@ -1,5 +1,6 @@
-package org.coaching;
+package org.coaching.deadfish;
 
+import org.coaching.deadfish.Deadfish;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;

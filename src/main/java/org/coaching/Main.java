@@ -1,5 +1,7 @@
 package org.coaching;
 
+import org.coaching.deadfish.Deadfish;
+
 import java.util.Arrays;
 
 public class Main {
